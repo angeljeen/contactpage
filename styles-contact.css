@@ -60,53 +60,51 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-image: url("images/rocks-bg.jpg"); 
+  background-image: url("images/water-darkened-bg.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-	
 }
 
 .center {
-    width: 800px;
+    width: 60%;
+	max-width: 800px;
+	min-height: 60%;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    margin: 120px auto;
+	background: linear-gradient(180deg, rgba(255,167,167,0.56) 35%, rgba(0,212,255,0) 100%);
 	text-align: center;
-	border: 4px dashed white;
+	border-radius: 60px;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin: 40px 0 10px 0;
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: baskerville, serif;
+	font-family: "Marcellus", serif;
 	font-weight: bolder;
 	text-transform: uppercase;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
+	font-size: 2.2em;
+	font-weight: bolder;
     color: #fff;
 }
 
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: bradley hand, cursive;
+	font-family: "Marcellus", serif;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 40px;
 }
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: comic sans ms, cursive;
+	font-family: sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
@@ -115,13 +113,9 @@ p {
 nav {
 	font-family: CHOOSE YOUR FONT FAMILY;
 	font-size: 1.2em;
-	width: 400px; /* This is the width of the nav element */
-	margin: 0 auto; /* This centers the entire nav element inside
-	the center div */
-	border: dashed turquoise;
-	border-width: 3px 0; /* This puts a 3 pixel border on top and bottom of the
-	nav element, the zero eliminates the left and right sides of the border */
-	text-align: center;
+	width: 80%; /* responsive nav */
+	margin: 0 auto; /* This centers the entire nav element inside the center div */
+	text-align: center; 
 	margin-top: 2em; /* This adds a bit of space above the nav element */
 }
 
@@ -133,23 +127,26 @@ nav li{
 
 nav a{
 	display: inline-block;
-	padding: 10px; /* This adds space
-	around each of the links */
+	padding: 16px; /* This adds space around the link and the border */
+	margin: 6px; /* This adds space around the links */
 }
 
 a{
-	color: #444;
+	color: #FFF;
 	text-decoration: none; /* This
 	removes the underline */
+	font-family: 'Montserrat Alternates';
+	font-size: 0.75em;
 	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 100px;
 }
 
 a:hover{
-	color: black;
-	background: pink; /* This is the
-	pink hover effect -- you’ll want to
-	change this! */
+	color: pink;
+	background: white; /* This is the
+	white button/pink text hover effect*/
 }
     
-    
+
 
